@@ -37,16 +37,7 @@ public class Views {
 		String iban1 = bank1.createAccount(AccountType.CHECKING, client1, 2000, 0);
 		String iban2 = bank2.createAccount(AccountType.CHECKING, client2, 5000, 0);
 		String iban3 = bank2.createAccount(AccountType.CHECKING, client3, 2500, 0);
-		
-		System.out.println(iban1);
-		System.out.println(iban2);
-		System.out.println(iban3);
-		//CGDCK1
-		//BPICK2
-		//BPICK3
-		
-		//MbwayTransferController ctrl = new MbwayTransferController(services);
-		
+	
 		while (true) {
 			try {
 				InputStreamReader input = new InputStreamReader(System.in);
@@ -95,11 +86,7 @@ public class Views {
 						Integer numberOfFriends = Integer.valueOf(inputs[1]);
 						Integer totalAmount = Integer.valueOf(inputs[2]);
 						String[] friends = command.split(" ");
-						
-						
-						
-						
-						System.out.println("Da-me jola");
+	
 				}
 				
 			}
